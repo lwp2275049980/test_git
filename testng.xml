@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+   <suite name="All Test Suite">
+       <test verbose="2" preserve-order="true" name="D:/class_34_35_second">
+           <classes>
+               <class name="com.lemon.day01.HomeWork01">
+                   <methods>
+                       <include name="loginTest"/>
+                   </methods>
+               </class>
+               <class name="com.lemon.testcases.LoginTest">
+                   <methods>
+                       <include name="test_login_success"/>
+                       <include name="test_login_from_array"/>
+                       <include name="test_login_from_excel"/>
+                   </methods>
+               </class>
+               <class name="com.lemon.testcases.ShopcartTest">
+                   <methods>
+                       <include name="test_add_shopcart_success"/>
+                       <include name="test_canshuhua"/>
+                   </methods>
+               </class>
+               <class name="com.lemon.testcases.RegisterTest">
+                   <methods>
+                       <include name="test_register_success"/>
+                   </methods>
+               </class>
+           </classes>
+       </test>
+</suite>
